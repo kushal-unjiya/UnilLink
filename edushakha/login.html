@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <link  rel="stylesheet" href="styles/login.css"> 
+ <script src="script/login.js"></script>
+<title>Edushakha Login</title>
+</head>
+<body>
+
+<div class="entire-page">
+<img src="images/login page.jpg" class="login-image">
+<form>
+  <div class="imgcontainer">
+    <img src="images/img_avatar.png" alt="Avatar" class="avatar">
+  </div>
+
+  <div class="container">
+    <label for="uname"><b>Student Id</b></label>
+    <input type="text" class="Student-Id" placeholder="Enter Student Id" name="uname" >
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" >
+        
+    <button class="login-Btn" onclick="document.location='home.html'
+    ">Login</button>
+    <button class="sign-up-link" onclick="document.location='sign_up.html'
+    ">Sign Up</button>  
+  </div>
+
+  <div class="container">
+    <span class="psw">Forgot <a href="#" class="psw-link">password?</a></span>
+    
+  </div>
+
+</form>
+</div>
+</body>
+</html>

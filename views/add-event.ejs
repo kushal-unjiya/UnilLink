@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Event</title>
+  <link rel="stylesheet" href="add_event.css">
+  <link rel="stylesheet" href="home.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <nav>
+    <div class="container">
+      <form method="post"
+        <div class="nav-bar">
+          <div class="left-section">
+            <button class="home" onclick="document.location='home'">Home</button>
+            <button class="nav-buttons" onclick="document.location='new-events'
+        ">New Events</button>
+            <button class="nav-buttons">Registered Events</button>
+            <button class="nav-buttons" onclick="document.location='add-event'">Create Events</button>
+          </div>
+          <div class="right-section">
+            <button class="logout" onclick="
+        document.location='login'">Logout</button>
+            <h2 class="logo">Edushakha</h2>
+          </div>
+        </div>
+  </nav>
+  <div>
+
+    <div class="box-container">
+      <img src="add-file.png" class="add-image">
+      <h2>Create Event</h2>
+      <label>Enter event name:</label>
+      <input type="text" placeholder="Enter event name" name="event_name" required>
+      <label>Enter event description:</label>
+      <input type="text" placeholder="Enter description" name="description" required>
+      <label>Who is hosting the event</label>
+      <input type="text" placeholder="hosting by " name="host" required>
+      <label>Date of Event:</label>
+      <input type="date" class="date" name="date" required>
+      <label>Time of Event:</label>
+      <input type="time" class="time" name="time" required>
+      <button class="submit" onclick="document.location='add-event'">Submit</button>
+
+    </div>
+  </form>
+  </div>
+</body>
+
+</html>

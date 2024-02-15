@@ -1,0 +1,36 @@
+/* body{
+  background-color: var(--white);
+	background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
+	
+} */
+.container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-left: 20vh;
+
+}
+.events{
+  width: 50vh;
+}
+.Events-list{
+  width: 50vh;
+  margin-bottom: 10vh;
+  
+}
+.Events-list p{
+  width: 50vh;
+  font-family: 'Raleway';
+  font-size:3vh ;
+}
+.Welcome-sign{
+  font-family: 'Raleway';
+  font-weight: bolder;
+  font-size: 10vh;
+  text-align: center;
+  margin-bottom: 5vh;
+  background:url(https://images.unsplash.com/photo-1603872984950-be19c2c26dc5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+

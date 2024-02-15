@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Event</title>
+  <link rel="stylesheet" href="styles/add_event.css">
+  <link rel="stylesheet" href="styles/home.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav>
+    <div class="container">
+    <div class="nav-bar">
+      <div class="left-section">
+        <button class="home" onclick="document.location='home.html'">Home</button>
+        <button class="nav-buttons" onclick="document.location='new_events.html'
+        ">New Events</button>
+        <button class="nav-buttons"
+        onclick="document.location='registered_events.html'">Registered Events</button>
+        <button class="nav-buttons" onclick="document.location='add_events.html'">Create Events</button>
+      </div>
+      <div class="right-section">
+        <button class="logout" onclick="
+        document.location='login.html'">Logout</button>
+        <h2 class="logo">Edushakha</h2>
+      </div>
+    </div>
+  </nav>
+<div>
+
+  <div class="box-container">
+    <img src="images/add-file.png" class="add-image">
+    <h2>Create Event</h2>
+    <label>Enter event name:</label>
+    <input type="text" class="event_name">
+    <label>Enter event description:</label>
+    <input type="text" class="description">
+    <label>Who is hosting the event</label>
+    <input type="text" class="host">
+    <label>Date of Event:</label>
+    <input type="date" class="date">
+    <label>Time of Event:</label>
+    <input type="time" class="time">
+    <button class="submit">Submit</button>
+  </div>
+</div>
+</body>
+</html>
